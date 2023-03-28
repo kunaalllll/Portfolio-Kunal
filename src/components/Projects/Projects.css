@@ -4,4 +4,11 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
+  align-items: center;
+  justify-content: center;
+
+  align-self: center;
+  justify-self: center;
+  place-self: center;
+
 }

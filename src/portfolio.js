@@ -1,65 +1,61 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
-}
+  homepage: "https://kunalllll.github.io",
+  title: "JS.",
+};
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'Kunal Mathur',
-  role: 'Front End Engineer',
+  name: "Kunal Mathur",
+  role: "Front End Engineer",
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    "Resourceful professional with successful track record in developing innovative web designs and features. Possesses solid knowledge of HTML, CSS, JavaScript, React and Bootstrap with ability to quickly learn new technologies. Demonstrated success in identifying and resolving complex code issues.",
+  resume:
+    "https://docs.google.com/document/d/1Qtg0RXbdfSig6R0mGf5IaZaUsAyeKsIw/edit?usp=sharing&ouid=103134346437644731532&rtpof=true&sd=truem",
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: "https://www.linkedin.com/in/kunaalllll/",
+    github: "https://github.com/kunaalllll",
   },
-}
+};
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Jira Ticket Clone',
+    name: "Jira Ticket Clone",
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "A working clone of the JIRA Ticketing Service with Vanilla JavaScript.",
+    stack: ["HTML", "CSS", "JavaScript"],
+    sourceCode: "https://github.com/kunaalllll/JIRA-Ticket-CLone",
+    livePreview: "https://github.com",
+  },
+
+  {
+    name: "Todo App",
+    description:
+      "With a clean UI, easily create new tasks, delete completed tasks and even edit tasks!",
+    stack: ["HTML", "JavaScript", "React"],
+    sourceCode: "https://github.com/kunaalllll/NewTodoApp",
+    livePreview: "https://todooo-app.netlify.app/",
   },
   {
-    name: 'News App',
+    name: "Weather App",
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "Just type the name of your city and get accurate weather details. ",
+    stack: ["HTML", "JavaScript", "React"],
+    sourceCode: "https://github.com/kunaalllll/Weather-App",
+    livePreview: "https://weatherrrr-app.netlify.app/",
   },
-  {
-    name: 'Todo App',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-]
+];
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'Bootstrap',
-  'React',
-  'Redux',
-  'Git',
-]
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "Bootstrap",
+  "React",
+  "Redux",
+  "Git",
+];
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
+
   email: 'kunalsrtk1404@gmail.com',
 }
 
